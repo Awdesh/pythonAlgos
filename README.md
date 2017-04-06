@@ -11,8 +11,11 @@
 
 
 ### Objects ###
-1.) Car =: move up, move down, 
+1.) Car =: move up, move down,
 2.) A centralized queue (FIFO)
 3.) Display
 4.) Sound.
 5.) Button.
+
+### pythonAlgos
+Algorithms in python
