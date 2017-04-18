@@ -4,21 +4,27 @@ class DataStructure:
     def __init__(self):
         print 'inside constructor'
 
+    # In python list is been used widely instead of an array.
     def print_list(self):
         print '***** LIST ******'
 
+        # There's no native array in python.
         list = ['aa', 1, 1.0, 131212343241, ]
 
         print list[0]
-        print list[1]
-        print list[2]
-        print list[3]
-
-        #  left to the colon is index (inclusive), right to it is element (exclusive).
+         #  left to the colon is index (inclusive), right to it is element (exclusive).
         print list[1:3]
         print list[1:]
         print list[:1]
         print list[:3]
+
+        print list.count('aa')
+        print len(list)
+
+        list.append(3)
+        list.append('4')
+        print list
+        print list[-4]
 
     def print_dictionary(self):
         print '****** Dictionary *****'
