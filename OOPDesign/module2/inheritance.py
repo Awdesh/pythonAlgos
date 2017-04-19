@@ -28,6 +28,3 @@ if __name__ == "__main__":
     # import pdb; pdb.set_trace()
     c = Child1()
     c.setUp()
-
-
-                
